@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/OpenLDES/OpenLDES/main/logos/openldes-logo-square.png" alt="OpenLDES logo" width="120"/>
+
+[//]: # (  <img src="https://raw.githubusercontent.com/OpenLDES/OpenLDES/main/logos/openldes-logo-square.png" alt="OpenLDES logo" width="120"/>)
   <h1>OpenLDES</h1>
   <p><strong>Open Linked Data Event Streams</strong></p>
   <p>
@@ -94,45 +95,45 @@ Key components include:
 
 ---
 
-## 📦 All Repositories
+## 📦 Other Repositories
 
 ### Tutorials & Examples
 
-| Repository                                                           | Description                                                  |
-|----------------------------------------------------------------------|--------------------------------------------------------------|
-| [Onboarding-Example](https://github.com/OpenLDES/Onboarding-Example) | Step-by-step tutorials for publishers, consumers and brokers |
-| [LDES-Demo](https://github.com/OpenLDES/LDES-Demo)                   | Demo applications showcasing end-to-end LDES usage with Nifi |
-| [Azure-Demo](https://github.com/OpenLDES/Azure-Demo)                 | LDES deployment on Microsoft Azure                           |
+| Repository                                                            | Description                                                  |
+|-----------------------------------------------------------------------|--------------------------------------------------------------|
+| [Onboarding-Example](https://github.com/OpenLDES/Onboarding-Example)  | Step-by-step tutorials for publishers, consumers and brokers |
+| [LDES-Demo (not up-to-date)](https://github.com/OpenLDES/LDES-Demo)   | Demo applications showcasing end-to-end LDES usage with Nifi |
+| [Azure-Demo (not up-to-date)](https://github.com/OpenLDES/Azure-Demo) | LDES deployment on Microsoft Azure                           |
 
 ### Documentation
 
-| Repository                                                                     | Description                           |
-|--------------------------------------------------------------------------------|---------------------------------------|
-| [LDES-Tech-documentation](https://github.com/OpenLDES/LDES-Tech-documentation) | Published technical docs site         |
-| [onboarding-docs](https://github.com/OpenLDES/onboarding-docs)                 | Onboarding and getting-started guides |
-| [LDES-Subject-Pages](https://github.com/OpenLDES/LDES-Subject-Pages)           | Subject-oriented reference pages      |
+| Repository                                                                             | Description                           |
+|----------------------------------------------------------------------------------------|---------------------------------------|
+| [LDES-Tech-documentation](https://github.com/OpenLDES/LDES-Tech-documentation)         | Published technical docs site         |
+| [onboarding-docs (not up-to-date)](https://github.com/OpenLDES/onboarding-docs)        | Onboarding and getting-started guides |
+| [LDES-Subject-Pages (not up-to-date)](https://github.com/OpenLDES/LDES-Subject-Pages)  | Subject-oriented reference pages      |
 
 ### Testing & Quality
 
-| Repository                                                                                   | Description                                           |
-|----------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [LDES-E2E-testing](https://github.com/OpenLDES/LDES-E2E-testing)                             | End-to-end test suite                                 |
-| [LDES-performance-testing](https://github.com/OpenLDES/LDES-performance-testing)             | Performance and load testing harness                  |
-| [LDES-E2E-message-generator](https://github.com/OpenLDES/LDES-E2E-message-generator)         | Generates synthetic LDES member messages for testing  |
-| [LDES-E2E-ldes-server-simulator](https://github.com/OpenLDES/LDES-E2E-ldes-server-simulator) | Lightweight LDES server simulator for testing         |
-| [LDES-E2E-message-sink](https://github.com/OpenLDES/LDES-E2E-message-sink)                   | HTTP sink that captures LDES members for verification |
-| [LDES-E2E-ldes-list-fragments](https://github.com/OpenLDES/LDES-E2E-ldes-list-fragments)     | Lists and inspects LDES fragments during testing      |
-| [LDES-E2E-mongodb-rest-api](https://github.com/OpenLDES/LDES-E2E-mongodb-rest-api)           | MongoDB REST API used in end-to-end scenarios         |
-| [TestBed-Shacl-Validator](https://github.com/OpenLDES/TestBed-Shacl-Validator)               | SHACL-based validation for LDES members               |
-| [LDES-Testbed](https://github.com/OpenLDES/LDES-Testbed)                                     | Integration test environment                          |
+| Repository                                                                                                | Description                                           |
+|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [LDES-E2E-testing](https://github.com/OpenLDES/LDES-E2E-testing)                                          | End-to-end test suite                                 |
+| [LDES-performance-testing](https://github.com/OpenLDES/LDES-performance-testing)                          | Performance and load testing harness                  |
+| [LDES-E2E-message-generator](https://github.com/OpenLDES/LDES-E2E-message-generator)                      | Generates synthetic LDES member messages for testing  |
+| [LDES-E2E-ldes-server-simulator](https://github.com/OpenLDES/LDES-E2E-ldes-server-simulator)              | Lightweight LDES server simulator for testing         |
+| [LDES-E2E-message-sink](https://github.com/OpenLDES/LDES-E2E-message-sink)                                | HTTP sink that captures LDES members for verification |
+| [LDES-E2E-ldes-list-fragments (not up-to-date)](https://github.com/OpenLDES/LDES-E2E-ldes-list-fragments) | Lists and inspects LDES fragments during testing      |
+| [LDES-E2E-mongodb-rest-api (not up-to-date)](https://github.com/OpenLDES/LDES-E2E-mongodb-rest-api)       | MongoDB REST API used in end-to-end scenarios         |
+| [TestBed-Shacl-Validator (not up-to-date)](https://github.com/OpenLDES/TestBed-Shacl-Validator)           | SHACL-based validation for LDES members               |
+| [LDES-Testbed (not up-to-date)](https://github.com/OpenLDES/LDES-Testbed)                                 | Integration test environment                          |
 
 ### Tooling & Utilities
 
-| Repository                                                             | Description                                             |
-|------------------------------------------------------------------------|---------------------------------------------------------|
-| [LDES-Data-Migrator](https://github.com/OpenLDES/LDES-Data-Migrator)   | Migrates data between LDES server v2.x to v3.x          |
-| [DCATAggregator](https://github.com/OpenLDES/DCATAggregator)           | Aggregates DCAT metadata across multiple LDES endpoints |
-| [Dataspace-Connector](https://github.com/OpenLDES/Dataspace-Connector) | Connector for dataspace / IDSA integration              |
+| Repository                                                                               | Description                                             |
+|------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [LDES-Data-Migrator (not up-to-date)](https://github.com/OpenLDES/LDES-Data-Migrator)    | Migrates data between LDES server v2.x to v3.x          |
+| [DCATAggregator (not up-to-date)](https://github.com/OpenLDES/DCATAggregator)            | Aggregates DCAT metadata across multiple LDES endpoints |
+| [Dataspace-Connector (not up-to-date)](https://github.com/OpenLDES/Dataspace-Connector)  | Connector for dataspace / IDSA integration              |
 
 ---
 
@@ -147,6 +148,6 @@ and code.
 
 ---
 
-You can find the code of conduct [here](./CODE_OF_CONDUCT.md).
+You can find the code of conduct [here](CODE_OF_CONDUCT.md).
 
-## 📜 License in this repository is licensed under the [EUPL (European Union Public License)](./LICENSE)
+## 📜 License in this repository is licensed under the [EUPL (European Union Public License)](LICENSE)
