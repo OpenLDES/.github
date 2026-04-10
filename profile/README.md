@@ -150,4 +150,6 @@ and code.
 
 You can find the code of conduct [here](CODE_OF_CONDUCT.md).
 
-## 📜 License in this repository is licensed under the [EUPL (European Union Public License)](LICENSE)
+## 📜 License
+
+The OpenLDES repositories are licensed under the [EUPL (European Union Public License)](LICENSE).
