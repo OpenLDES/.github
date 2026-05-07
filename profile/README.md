@@ -35,13 +35,14 @@ the European Commission.
 
 ## 🚀 Where to Start
 
-| I want to…                              | Start here                                                                                                           |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| **Publish** data as an LDES             | [Onboarding-Example → minimal-server](https://github.com/OpenLDES/Onboarding-Example/tree/main/minimal-server)       |
-| **Consume** an existing LDES            | [Onboarding-Example → minimal-client](https://github.com/OpenLDES/Onboarding-Example/tree/main/minimal-client)       |
-| **Transform** Linked Data in a pipeline | [Onboarding-Example → minimal-workbench](https://github.com/OpenLDES/Onboarding-Example/tree/main/minimal-workbench) |
-| Read the **full tutorial**              | [Onboarding-Example](https://github.com/OpenLDES/Onboarding-Example)                                                 |
-| Read the **LDES specification**         | [LinkedDataEventStreams](https://github.com/OpenLDES/LinkedDataEventStreams)                                         |
+| I want to…                                                        | Start here                                                                                                           |
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **Publish** data as an LDES                                       | [Onboarding-Example → minimal-server](https://github.com/OpenLDES/Onboarding-Example/tree/main/minimal-server)       |
+| **Consume** an existing LDES                                      | [Onboarding-Example → minimal-client](https://github.com/OpenLDES/Onboarding-Example/tree/main/minimal-client)       |
+| **Transform** Linked Data in a pipeline                           | [Onboarding-Example → minimal-workbench](https://github.com/OpenLDES/Onboarding-Example/tree/main/minimal-workbench) |
+| **Sync** Linked Data in a pipeline to a relational database table | [Onboarding-Example → ldes-to-database](https://github.com/OpenLDES/Onboarding-Example/tree/main/ldes-to-database)   |
+| Read the **full tutorial**                                        | [Onboarding-Example](https://github.com/OpenLDES/Onboarding-Example)                                                 |
+| Read the **LDES specification**                                   | [LinkedDataEventStreams](https://github.com/OpenLDES/LinkedDataEventStreams)                                         |
 
 ---
 
@@ -107,11 +108,11 @@ Key components include:
 
 ### Documentation
 
-| Repository                                                                             | Description                           |
-|----------------------------------------------------------------------------------------|---------------------------------------|
-| [LDES-Tech-documentation](https://github.com/OpenLDES/LDES-Tech-documentation)         | Published technical docs site         |
-| [onboarding-docs (not up-to-date)](https://github.com/OpenLDES/onboarding-docs)        | Onboarding and getting-started guides |
-| [LDES-Subject-Pages (not up-to-date)](https://github.com/OpenLDES/LDES-Subject-Pages)  | Subject-oriented reference pages      |
+| Repository                                                                            | Description                           |
+|---------------------------------------------------------------------------------------|---------------------------------------|
+| [LDES-Tech-documentation](https://github.com/OpenLDES/LDES-Tech-documentation)        | Published technical docs site         |
+| [onboarding-docs (not up-to-date)](https://github.com/OpenLDES/onboarding-docs)       | Onboarding and getting-started guides |
+| [LDES-Subject-Pages (not up-to-date)](https://github.com/OpenLDES/LDES-Subject-Pages) | Subject-oriented reference pages      |
 
 ### Testing & Quality
 
@@ -129,11 +130,11 @@ Key components include:
 
 ### Tooling & Utilities
 
-| Repository                                                                               | Description                                             |
-|------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [LDES-Data-Migrator (not up-to-date)](https://github.com/OpenLDES/LDES-Data-Migrator)    | Migrates data between LDES server v2.x to v3.x          |
-| [DCATAggregator (not up-to-date)](https://github.com/OpenLDES/DCATAggregator)            | Aggregates DCAT metadata across multiple LDES endpoints |
-| [Dataspace-Connector (not up-to-date)](https://github.com/OpenLDES/Dataspace-Connector)  | Connector for dataspace / IDSA integration              |
+| Repository                                                                              | Description                                             |
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [LDES-Data-Migrator (not up-to-date)](https://github.com/OpenLDES/LDES-Data-Migrator)   | Migrates data between LDES server v2.x to v3.x          |
+| [DCATAggregator (not up-to-date)](https://github.com/OpenLDES/DCATAggregator)           | Aggregates DCAT metadata across multiple LDES endpoints |
+| [Dataspace-Connector (not up-to-date)](https://github.com/OpenLDES/Dataspace-Connector) | Connector for dataspace / IDSA integration              |
 
 ---
 
